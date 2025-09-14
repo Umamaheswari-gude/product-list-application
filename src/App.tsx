@@ -6,7 +6,9 @@ function App() {
   return (
    <div className="App">
       <header className="App-header">
-        <h1>Welcome to My Product list application!</h1>
+        <span className="welcome">Welcome</span>
+        <span className="to">To</span>
+        <span className="nextech">NexTech!</span>
       </header>
       <main>
         <ProductList />
