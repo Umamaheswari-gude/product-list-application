@@ -1,16 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: bisque;
 }
 
 .App-header {
@@ -20,19 +10,35 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 25px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header .welcome {
+  font-size: 40px;
+  font-weight: 700;
+  color: #e6d2aa;
+  text-shadow: 2px 2px 4px rgba(28, 14, 14, 0.5);
+  font-family: Georgia, serif;
+  margin-right: 10px;
+
+}
+.App-header .to {
+  font-size: 30px;
+  color: #A9A9A9;
+  margin: 0 10px;
+  font-family: 'Verdana', sans-serif;
+
+}
+.App-header .nextech {
+  font-size: 36px;
+  font-weight: bold;
+  color: #61999b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Courier New', monospace;
+  margin-left: 10px;
+  letter-spacing: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
