@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductCard from './productCard';
 import { Product } from '../types/types'; 
+import './productList.css';
 
 const PRODUCTSDATA: Product[] = [
   { id: 1, name: 'Iphone', price: 139000, inStock: true, image: 'https://cdn.pixabay.com/photo/2014/12/10/12/26/iphone-563067_1280.jpg' },
