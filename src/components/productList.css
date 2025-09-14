@@ -4,6 +4,15 @@
     margin: 0 auto;
     font-family: Arial, sans-serif;
 }
+.product-list-container h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #1a1e14;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(134, 9, 9, 0.7);
+    font-style: oblique;
+}
 
 
 
