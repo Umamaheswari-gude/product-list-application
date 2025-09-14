@@ -14,3 +14,31 @@
   color: white;
 }
 
+.App-header .welcome {
+  font-size: 40px;
+  font-weight: 700;
+  color: #e6d2aa;
+  text-shadow: 2px 2px 4px rgba(28, 14, 14, 0.5);
+  font-family: Georgia, serif;
+  margin-right: 10px;
+
+}
+.App-header .to {
+  font-size: 30px;
+  color: #A9A9A9;
+  margin: 0 10px;
+  font-family: 'Verdana', sans-serif;
+
+}
+.App-header .nextech {
+  font-size: 36px;
+  font-weight: bold;
+  color: #61999b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Courier New', monospace;
+  margin-left: 10px;
+  letter-spacing: 2px;
+}
+
+
+
