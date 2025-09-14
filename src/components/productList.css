@@ -13,7 +13,11 @@
     text-shadow: 1px 1px 3px rgba(134, 9, 9, 0.7);
     font-style: oblique;
 }
-
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
 
 
 
