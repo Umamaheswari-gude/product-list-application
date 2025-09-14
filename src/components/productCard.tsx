@@ -1,5 +1,6 @@
 import React from 'react';
-import { Product } from '../types/types'; 
+import { Product } from '../types/types';
+import './productCard.css'; 
 
 type ProductCardProps = {
   productInfo: Product;
