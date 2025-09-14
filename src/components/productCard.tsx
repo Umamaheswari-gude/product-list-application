@@ -12,7 +12,9 @@ const ProductCard = ({ productInfo }: ProductCardProps) => {
       <div className="product-details">
         <h3 className="product-name">{productInfo.name}</h3>
         <p className="product-price">{productInfo.price}</p>
-        <p className="stock-label">{productInfo.inStock ? 'Available' : 'Out of Stock'}</p>
+        <span className={`stock-label ${productInfo.inStock ? 'available' : 'out-of-stock'}`}>
+          {productInfo.inStock ? 'Available' : 'Out of Stock'}
+        </span>
       </div>
     </div>
   );
