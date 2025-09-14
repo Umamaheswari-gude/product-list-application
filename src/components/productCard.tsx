@@ -7,6 +7,7 @@ type ProductCardProps = {
 const ProductCard = ({ productInfo }: ProductCardProps) => {
   return (
     <div className="product-card">
+      <img src={productInfo.image} alt={productInfo.name} className="product-image" />
       
     </div>
   );
